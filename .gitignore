@@ -1,0 +1,12 @@
+# local / generated
+*.swp
+*~
+.DS_Store
+
+# optional raw logs (keep directory with .gitkeep if needed)
+notes/raw/*
+!notes/raw/.gitkeep
+
+# editor
+.vscode/
+.idea/

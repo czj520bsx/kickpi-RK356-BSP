@@ -1,0 +1,15 @@
+// SPDX-License-Identifier: (GPL-2.0+ OR MIT)
+/*
+ * K7 CZJ — BSP 包板级 DTS（硬件暂复用官方 kickpi-k7.dtsi）
+ */
+
+/dts-v1/;
+
+#include "rk3576.dtsi"
+#include "rk3576-kickpi-k7.dtsi"
+#include "rk3576-linux.dtsi"
+
+/ {
+	model = "RK3576 K7 CZJ Board";
+	compatible = "czj,rk3576-k7", "rockchip,rk3576-evb1-v10", "rockchip,rk3576";
+};
